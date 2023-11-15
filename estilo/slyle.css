@@ -25,11 +25,15 @@ html, body {
 
 header {
     background-image: url('../imagens/cabeça.jpg');
-    background-position: bottom;
+    background-size: cover;
+
+    background-position: 0px -200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Efeito Parallax*/
     color: rgba(255, 251, 251, 0.432);
     text-align: center;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.37);
-    background-attachment: fixed; /* Efeito Parallax*/
+    
 
 }
 
@@ -90,28 +94,30 @@ section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.247);
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.336);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.616);
     
 }
 
 section#img01 {
     background-image: url('../imagens/imagem-001.jpg');
     background-position:center;
-    background-size: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
 section#img02 {
     background-image: url('../imagens/imagem-002.jpg');
     background-position:center;
-    background-size: 100vh;
+    background-size: cover
+    ;
 
 }
 
 footer {
     background-image: url('../imagens/background001.jpg');
     background-position:center;
-    background-size: 100vh;
+    background-size: cover;
     color: white;
     text-align: center;
     padding: 10px;
