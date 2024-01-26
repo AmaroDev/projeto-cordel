@@ -24,8 +24,8 @@ html, body {
 
 header {
     background-image: url('../imagens/cabeça.jpg');
-    background-size: cover;
-    background-position: 0px -250px;
+    background-size: 100vw;
+    background-position: top;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Efeito Parallax*/
     color: rgba(255, 251, 251, 0.432);
@@ -119,6 +119,6 @@ footer {
     background-size: cover;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 130px;
 }
 
