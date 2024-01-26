@@ -117,10 +117,10 @@ section#img02 {
 
 footer {
     background-image: url('../imagens/background001.jpg');
-    background-position:center;
+    background-position:center ;
     background-size: cover;
     color: white;
-    text-align: center;
+    text-align: center left;
     padding: 130px;
 }
 
